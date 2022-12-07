@@ -1,15 +1,18 @@
 import 'virtual:windi.css'
 
 import Router from 'svelte-spa-router'
-import Home from './pages/Home.svelte'
-import NotFound from './pages/NotFound.svelte'
+
+import Login from './pages/Login.svelte'
+import Register from './pages/Register.svelte'
+import Scaffold from './pages/Scaffold.svelte'
 
 const routes = {
-  '/': Home,
-  '*': NotFound,
+    '/login': Login,
+    '/register': Register,
+    '*': Scaffold,
 }
 
-const app = new Router({target: document.body, props: {routes}})
+const app = new Router({target: document.body, props: { routes }})
 
 export default app
 
