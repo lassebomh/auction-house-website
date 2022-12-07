@@ -6,10 +6,11 @@ import WindiCSS from 'vite-plugin-windicss'
 export default defineConfig({
   build: {
     outDir: "docs",
-    emptyOutDir: true
+    emptyOutDir: true,
   },
   plugins: [
     svelte(),
     WindiCSS(),
   ],
+  base: "/auction-house-website/"
 })
