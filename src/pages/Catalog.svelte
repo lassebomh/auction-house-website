@@ -11,6 +11,12 @@
     ],
   }
   ```
+
+
+
+
+
+
 -->
     <h1 class="text-5xl pb-8">Hvidevarer</h1>
   

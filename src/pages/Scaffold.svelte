@@ -39,15 +39,15 @@
                 <a href="#/catalog/something" class="flex items-center font-medium text-gray-700 hover:text-gray-800">
                     Auktioner
                 </a>
-                <a href="#/catalog/something" class="flex items-center font-medium text-gray-700 hover:text-gray-800">
+                <a href="#/catalog/something" class="flex nope items-center font-medium text-gray-700 hover:text-gray-800">
                     Køb nu
                 </a>
-                <a href="#/catalog/something" class="flex items-center font-medium text-gray-700 hover:text-gray-800">
+                <a href="#/catalog/something" class="flex nope items-center font-medium text-gray-700 hover:text-gray-800">
                     Om os
                 </a>
               </div>
             </div>
-            <div class="ml-auto flex items-center">
+            <div class="ml-auto nope flex items-center">
               <div class="flex flex-1 items-center justify-end space-x-6">
                 <a href="#/login" class="font-medium text-gray-700 hover:text-gray-800">Log ind</a>
                 <span class="h-6 w-px bg-gray-200" aria-hidden="true"></span>
