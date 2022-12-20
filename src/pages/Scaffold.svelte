@@ -14,8 +14,8 @@
     }
     
 </script>
-<div class="bg-red-500 text-white py-2 text-center font-bold">
-  Dette er et mockup! Gennemsigtige knapper har ingen funktionalitet.
+<div class="bg-red-500 text-white py-2 text-center">
+  Dette er et mockup! <span class="font-bold">Gennemsigtige knapper har ingen funktionalitet.</span>
 </div>
 <div class="bg-white min-h-[100vh]">
     <header class="relative bg-white">
