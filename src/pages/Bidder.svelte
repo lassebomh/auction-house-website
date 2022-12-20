@@ -115,7 +115,7 @@
         <div class="bid bid-yours bid-fmt bg-white border" class:bid-winner={winner}>
             <div>
                 {#if winnerReal}
-                    {winnerReal+0}
+                    {Number(winnerReal)+0}
                 {/if}
             </div>
             <div class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
@@ -140,7 +140,7 @@
             </div> -->
         </div>
         <div class="bid bid-fmt bg-white border" class:bid-winner={!winner}>
-            <div>{winnerReal+1}</div>
+            <div>{Number(winnerReal)+1}</div>
             <div class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                 Jens J.
             </div>
@@ -152,7 +152,7 @@
             </div>
         </div>
         <div class="bid bid-fmt bg-white border">
-            <div>{winnerReal+2}</div>
+            <div>{Number(winnerReal)+2}</div>
             <div class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                 Carsten B.
             </div>
@@ -164,7 +164,7 @@
             </div>
         </div>
         <div class="bid bid-fmt bg-white border">
-            <div>{winnerReal+3}</div>
+            <div>{Number(winnerReal)+3}</div>
             <div class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                 Bent B.
             </div>
@@ -176,7 +176,7 @@
             </div>
         </div>
         <div class="bid bid-fmt bg-white border">
-            <div>{winnerReal+4}</div>
+            <div>{Number(winnerReal)+4}</div>
             <div class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                 Carsten L.
             </div>
@@ -188,7 +188,7 @@
             </div>
         </div>
         <div class="bid bid-fmt bg-white border">
-            <div>{winnerReal+5}</div>
+            <div>{Number(winnerReal)+5}</div>
             <div class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                 Jens J.
             </div>
@@ -200,7 +200,7 @@
             </div>
         </div>
         <div class="bid bid-fmt bg-white border">
-            <div>{winnerReal+6}</div>
+            <div>{Number(winnerReal)+6}</div>
             <div class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                 Bent B.
             </div>
