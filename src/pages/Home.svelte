@@ -2,7 +2,7 @@
   import { faker } from '@faker-js/faker';
 </script>
 <div class="mb-12">
-    <h2 class="text-3xl mb-4">Categorier</h2>
+    <h2 class="text-3xl mb-4">Kategorier</h2>
 
     <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 grid-cols-5">
       

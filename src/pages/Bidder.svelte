@@ -252,19 +252,21 @@
         Eller
         </div>
         <div class="">
-        <div class="text-xl">Opret maximalt bud</div>
-        <div class="flex justify-between items-center children:h-[inherit] h-9 gap-4">
-            <div class="flex-grow flex justify-between items-center children:h-[inherit]">
-            <input type="number" class="border rounded border-gray-300 flex-grow px-4">
-            <div class="flex items-center pl-2">
-                DKK
+            <div class="nope">
+                <div class="text-xl">Opret maximalt bud</div>
+                <div class="flex justify-between items-center children:h-[inherit] h-9 gap-4">
+                    <div class="flex-grow flex justify-between items-center children:h-[inherit]">
+                        <input type="number" class="border rounded border-gray-300 flex-grow px-4" value="300">
+                        <div class="flex items-center pl-2">
+                            DKK
+                        </div>
+                        </div>
+                        <button class="text-white bg-blue-700 rounded-md border borderlue-700 hover:bg-blue-800 py-1 px-8 outline-none">
+                            Byd
+                        </button>
+                    </div>
+                </div>
             </div>
-            </div>
-            <button on:click={_ => bidPopupOpen = false} class="text-white bg-blue-700 rounded-md border borderlue-700 hover:bg-blue-800 py-1 px-8 outline-none">
-            Byd
-            </button>
-        </div>
-        </div>
     </div>
     </div>
 </div>
